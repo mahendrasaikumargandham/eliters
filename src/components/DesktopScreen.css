@@ -1,0 +1,9 @@
+.tor_icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+    bottom: -5%;               
+    left: 0%;
+    transform: translate(0%, 0%);
+}

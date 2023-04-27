@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.container {
+  position: relative;
+  width: 60%;
+  height: 450px;
+  background-color: #fff;
+  top: 50%;
+  left: 15%;
+  transform: translate(-20%, 0%);
+  border-radius: 40px;
+  border: 10px solid #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  position: absolute;
+  width: 22%;
+  height: 550px;
+  background-color: #fff;
+  top: 5%;
+  right: 4%;
+  transform: translate(0%, 0%);
+  border-radius: 40px;
+  border: 10px solid #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box_container {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32%;
+  height: 26px;
+  background-color: #000000;
+  border-radius: 999px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dock {
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; 
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.49);
 }
