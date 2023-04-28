@@ -2,8 +2,15 @@
     height: 50px;
     width: 50px;
     position: relative;
-
     bottom: -5%;               
     left: 0%;
     transform: translate(0%, 0%);
+    margin-left: 10px;
 }
+
+.desktopicons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+

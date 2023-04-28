@@ -2,10 +2,15 @@
   position: relative;
   width: 60%;
   height: 450px;
-  background-color: #fff;
+  background-image: url("/src/images/wallpaper.webp");
+  
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   top: 50%;
   left: 15%;
-  transform: translate(-20%, 0%);
+  transform: translate(-20%, 20%);
   border-radius: 40px;
   border: 10px solid #000000;
 }
